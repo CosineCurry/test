@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1D14D1227FD1420073E6CB /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14CF227FD1420073E6CB /* PersonViewController.m */; };
+		8B1D14D2227FD1420073E6CB /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14D0227FD1420073E6CB /* PersonViewController.xib */; };
+		8B1D14D422814F970073E6CB /* SerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14D322814F970073E6CB /* SerViewController.xib */; };
+		8B1D14D6228166640073E6CB /* SchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14D5228166640073E6CB /* SchViewController.xib */; };
+		8B1D14DD2282735F0073E6CB /* PerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14DB2282735F0073E6CB /* PerViewController.m */; };
+		8B1D14DE2282735F0073E6CB /* PerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14DC2282735F0073E6CB /* PerViewController.xib */; };
+		8B1D14E22282ABAC0073E6CB /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14E02282ABAC0073E6CB /* ActivityViewController.m */; };
+		8B1D14E32282ABAC0073E6CB /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14E12282ABAC0073E6CB /* ActivityViewController.xib */; };
+		8B1D14E722831BC10073E6CB /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14E522831BC10073E6CB /* NewsViewController.m */; };
+		8B1D14E822831BC10073E6CB /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14E622831BC10073E6CB /* NewsViewController.xib */; };
+		8B1D14EC22831BFE0073E6CB /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14EA22831BFE0073E6CB /* NewsTableViewCell.m */; };
+		8B1D14ED22831BFE0073E6CB /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14EB22831BFE0073E6CB /* NewsTableViewCell.xib */; };
+		8B1D14F3228561160073E6CB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D14F2228561160073E6CB /* News.m */; };
+		8B1D14F5228562990073E6CB /* newsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D14F4228562990073E6CB /* newsPlist.plist */; };
+		8B1D152A228650440073E6CB /* NewsInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D1528228650440073E6CB /* NewsInfoViewController.m */; };
+		8B1D152B228650440073E6CB /* NewsInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D1529228650440073E6CB /* NewsInfoViewController.xib */; };
+		8BF9B38B227E7C1D002CC38C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9B38A227E7C1D002CC38C /* AppDelegate.m */; };
+		8BF9B38E227E7C1D002CC38C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9B38D227E7C1D002CC38C /* ViewController.m */; };
+		8BF9B391227E7C1D002CC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9B38F227E7C1D002CC38C /* Main.storyboard */; };
+		8BF9B396227E7C1E002CC38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9B394227E7C1E002CC38C /* LaunchScreen.storyboard */; };
+		8BF9B399227E7C1E002CC38C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9B398227E7C1E002CC38C /* main.m */; };
+		8BF9B3A0227E9AE1002CC38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9B39F227E9AE1002CC38C /* Assets.xcassets */; };
+		8BF9B3A3227EC03F002CC38C /* SchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9B3A2227EC03F002CC38C /* SchViewController.m */; };
+		8BF9B3A6227EC08D002CC38C /* SerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9B3A5227EC08D002CC38C /* SerViewController.m */; };
+		A5AF6ED42C15E24124C792BE /* libPods-KTH01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9191B7EB7961F25787375187 /* libPods-KTH01.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495DA5F565CEA1FFE73DF262 /* Pods-KTH01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTH01.debug.xcconfig"; path = "Target Support Files/Pods-KTH01/Pods-KTH01.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1D14CE227FD1420073E6CB /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		8B1D14CF227FD1420073E6CB /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		8B1D14D0227FD1420073E6CB /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		8B1D14D322814F970073E6CB /* SerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SerViewController.xib; sourceTree = "<group>"; };
+		8B1D14D5228166640073E6CB /* SchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchViewController.xib; sourceTree = "<group>"; };
+		8B1D14DA2282735F0073E6CB /* PerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerViewController.h; sourceTree = "<group>"; };
+		8B1D14DB2282735F0073E6CB /* PerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerViewController.m; sourceTree = "<group>"; };
+		8B1D14DC2282735F0073E6CB /* PerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerViewController.xib; sourceTree = "<group>"; };
+		8B1D14DF2282ABAC0073E6CB /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		8B1D14E02282ABAC0073E6CB /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		8B1D14E12282ABAC0073E6CB /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		8B1D14E422831BC10073E6CB /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		8B1D14E522831BC10073E6CB /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		8B1D14E622831BC10073E6CB /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		8B1D14E922831BFE0073E6CB /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		8B1D14EA22831BFE0073E6CB /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		8B1D14EB22831BFE0073E6CB /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		8B1D14F1228561160073E6CB /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		8B1D14F2228561160073E6CB /* News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		8B1D14F4228562990073E6CB /* newsPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = newsPlist.plist; sourceTree = "<group>"; };
+		8B1D1527228650440073E6CB /* NewsInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsInfoViewController.h; sourceTree = "<group>"; };
+		8B1D1528228650440073E6CB /* NewsInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsInfoViewController.m; sourceTree = "<group>"; };
+		8B1D1529228650440073E6CB /* NewsInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsInfoViewController.xib; sourceTree = "<group>"; };
+		8BF9B386227E7C1D002CC38C /* KTH01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTH01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF9B389227E7C1D002CC38C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BF9B38A227E7C1D002CC38C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BF9B38C227E7C1D002CC38C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BF9B38D227E7C1D002CC38C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BF9B390227E7C1D002CC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF9B395227E7C1E002CC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BF9B397227E7C1E002CC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF9B398227E7C1E002CC38C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BF9B39F227E9AE1002CC38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF9B3A1227EC03F002CC38C /* SchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchViewController.h; sourceTree = "<group>"; };
+		8BF9B3A2227EC03F002CC38C /* SchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchViewController.m; sourceTree = "<group>"; };
+		8BF9B3A4227EC08D002CC38C /* SerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerViewController.h; sourceTree = "<group>"; };
+		8BF9B3A5227EC08D002CC38C /* SerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerViewController.m; sourceTree = "<group>"; };
+		9191B7EB7961F25787375187 /* libPods-KTH01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTH01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72D527C38E33304A34AD37F /* Pods-KTH01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTH01.release.xcconfig"; path = "Target Support Files/Pods-KTH01/Pods-KTH01.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF9B383227E7C1D002CC38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AF6ED42C15E24124C792BE /* libPods-KTH01.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300AE51E37472D8896A36E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9191B7EB7961F25787375187 /* libPods-KTH01.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DE5BFD387E3B118D4DABD86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495DA5F565CEA1FFE73DF262 /* Pods-KTH01.debug.xcconfig */,
+				A72D527C38E33304A34AD37F /* Pods-KTH01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B1D14D722826EF90073E6CB /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D152622864F6B0073E6CB /* 用户登录 */,
+				8B1D152522864F480073E6CB /* 健康档案 */,
+				8B1D152422864F3E0073E6CB /* 查看报告 */,
+				8B1D14DA2282735F0073E6CB /* PerViewController.h */,
+				8B1D14DB2282735F0073E6CB /* PerViewController.m */,
+				8B1D14DC2282735F0073E6CB /* PerViewController.xib */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		8B1D14D822826F190073E6CB /* 服务中心 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D152322864F1F0073E6CB /* 快速咨询 */,
+				8B1D152122864F0C0073E6CB /* 预约检测 */,
+				8B1D152022864EFA0073E6CB /* 预约门诊 */,
+				8B1D151F22864EEF0073E6CB /* 专家解读 */,
+				8BF9B3A4227EC08D002CC38C /* SerViewController.h */,
+				8BF9B3A5227EC08D002CC38C /* SerViewController.m */,
+				8B1D14D322814F970073E6CB /* SerViewController.xib */,
+			);
+			path = "服务中心";
+			sourceTree = "<group>";
+		};
+		8B1D14D922826F290073E6CB /* 校园公益 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D151E22864EB50073E6CB /* 新闻动态 */,
+				8B1D151D22864E770073E6CB /* 活动介绍 */,
+				8BF9B3A1227EC03F002CC38C /* SchViewController.h */,
+				8BF9B3A2227EC03F002CC38C /* SchViewController.m */,
+				8B1D14D5228166640073E6CB /* SchViewController.xib */,
+			);
+			path = "校园公益";
+			sourceTree = "<group>";
+		};
+		8B1D151D22864E770073E6CB /* 活动介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D14DF2282ABAC0073E6CB /* ActivityViewController.h */,
+				8B1D14E02282ABAC0073E6CB /* ActivityViewController.m */,
+				8B1D14E12282ABAC0073E6CB /* ActivityViewController.xib */,
+			);
+			path = "活动介绍";
+			sourceTree = "<group>";
+		};
+		8B1D151E22864EB50073E6CB /* 新闻动态 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D14E422831BC10073E6CB /* NewsViewController.h */,
+				8B1D14E522831BC10073E6CB /* NewsViewController.m */,
+				8B1D14E622831BC10073E6CB /* NewsViewController.xib */,
+				8B1D14E922831BFE0073E6CB /* NewsTableViewCell.h */,
+				8B1D14EA22831BFE0073E6CB /* NewsTableViewCell.m */,
+				8B1D14EB22831BFE0073E6CB /* NewsTableViewCell.xib */,
+				8B1D14F1228561160073E6CB /* News.h */,
+				8B1D14F2228561160073E6CB /* News.m */,
+				8B1D14F4228562990073E6CB /* newsPlist.plist */,
+				8B1D1527228650440073E6CB /* NewsInfoViewController.h */,
+				8B1D1528228650440073E6CB /* NewsInfoViewController.m */,
+				8B1D1529228650440073E6CB /* NewsInfoViewController.xib */,
+			);
+			path = "新闻动态";
+			sourceTree = "<group>";
+		};
+		8B1D151F22864EEF0073E6CB /* 专家解读 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "专家解读";
+			sourceTree = "<group>";
+		};
+		8B1D152022864EFA0073E6CB /* 预约门诊 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "预约门诊";
+			sourceTree = "<group>";
+		};
+		8B1D152122864F0C0073E6CB /* 预约检测 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "预约检测";
+			sourceTree = "<group>";
+		};
+		8B1D152322864F1F0073E6CB /* 快速咨询 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "快速咨询";
+			sourceTree = "<group>";
+		};
+		8B1D152422864F3E0073E6CB /* 查看报告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "查看报告";
+			sourceTree = "<group>";
+		};
+		8B1D152522864F480073E6CB /* 健康档案 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "健康档案";
+			sourceTree = "<group>";
+		};
+		8B1D152622864F6B0073E6CB /* 用户登录 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D14CE227FD1420073E6CB /* PersonViewController.h */,
+				8B1D14CF227FD1420073E6CB /* PersonViewController.m */,
+				8B1D14D0227FD1420073E6CB /* PersonViewController.xib */,
+			);
+			path = "用户登录";
+			sourceTree = "<group>";
+		};
+		8BF9B37D227E7C1D002CC38C = {
+			isa = PBXGroup;
+			children = (
+				8BF9B388227E7C1D002CC38C /* KTH01 */,
+				8BF9B387227E7C1D002CC38C /* Products */,
+				3DE5BFD387E3B118D4DABD86 /* Pods */,
+				300AE51E37472D8896A36E6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF9B387227E7C1D002CC38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF9B386227E7C1D002CC38C /* KTH01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF9B388227E7C1D002CC38C /* KTH01 */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D14D922826F290073E6CB /* 校园公益 */,
+				8B1D14D822826F190073E6CB /* 服务中心 */,
+				8B1D14D722826EF90073E6CB /* 个人中心 */,
+				8BF9B389227E7C1D002CC38C /* AppDelegate.h */,
+				8BF9B38A227E7C1D002CC38C /* AppDelegate.m */,
+				8BF9B38C227E7C1D002CC38C /* ViewController.h */,
+				8BF9B38D227E7C1D002CC38C /* ViewController.m */,
+				8BF9B38F227E7C1D002CC38C /* Main.storyboard */,
+				8BF9B394227E7C1E002CC38C /* LaunchScreen.storyboard */,
+				8BF9B397227E7C1E002CC38C /* Info.plist */,
+				8BF9B398227E7C1E002CC38C /* main.m */,
+				8BF9B39F227E9AE1002CC38C /* Assets.xcassets */,
+			);
+			path = KTH01;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF9B385227E7C1D002CC38C /* KTH01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF9B39C227E7C1E002CC38C /* Build configuration list for PBXNativeTarget "KTH01" */;
+			buildPhases = (
+				DB01DFD4E2C8D809356A1680 /* [CP] Check Pods Manifest.lock */,
+				8BF9B382227E7C1D002CC38C /* Sources */,
+				8BF9B383227E7C1D002CC38C /* Frameworks */,
+				8BF9B384227E7C1D002CC38C /* Resources */,
+				FDA8472BE2FB6B8DA73576F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTH01;
+			productName = KTH01;
+			productReference = 8BF9B386227E7C1D002CC38C /* KTH01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF9B37E227E7C1D002CC38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "帅颖";
+				TargetAttributes = {
+					8BF9B385227E7C1D002CC38C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BF9B381227E7C1D002CC38C /* Build configuration list for PBXProject "KTH01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF9B37D227E7C1D002CC38C;
+			productRefGroup = 8BF9B387227E7C1D002CC38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF9B385227E7C1D002CC38C /* KTH01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF9B384227E7C1D002CC38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF9B396227E7C1E002CC38C /* LaunchScreen.storyboard in Resources */,
+				8BF9B3A0227E9AE1002CC38C /* Assets.xcassets in Resources */,
+				8BF9B391227E7C1D002CC38C /* Main.storyboard in Resources */,
+				8B1D14DE2282735F0073E6CB /* PerViewController.xib in Resources */,
+				8B1D14ED22831BFE0073E6CB /* NewsTableViewCell.xib in Resources */,
+				8B1D14D422814F970073E6CB /* SerViewController.xib in Resources */,
+				8B1D14D2227FD1420073E6CB /* PersonViewController.xib in Resources */,
+				8B1D14F5228562990073E6CB /* newsPlist.plist in Resources */,
+				8B1D14D6228166640073E6CB /* SchViewController.xib in Resources */,
+				8B1D14E32282ABAC0073E6CB /* ActivityViewController.xib in Resources */,
+				8B1D14E822831BC10073E6CB /* NewsViewController.xib in Resources */,
+				8B1D152B228650440073E6CB /* NewsInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB01DFD4E2C8D809356A1680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTH01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA8472BE2FB6B8DA73576F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTH01/Pods-KTH01-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTH01/Pods-KTH01-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTH01/Pods-KTH01-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTH01/Pods-KTH01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF9B382227E7C1D002CC38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF9B3A6227EC08D002CC38C /* SerViewController.m in Sources */,
+				8BF9B38E227E7C1D002CC38C /* ViewController.m in Sources */,
+				8BF9B399227E7C1E002CC38C /* main.m in Sources */,
+				8B1D14DD2282735F0073E6CB /* PerViewController.m in Sources */,
+				8BF9B38B227E7C1D002CC38C /* AppDelegate.m in Sources */,
+				8BF9B3A3227EC03F002CC38C /* SchViewController.m in Sources */,
+				8B1D14EC22831BFE0073E6CB /* NewsTableViewCell.m in Sources */,
+				8B1D14E722831BC10073E6CB /* NewsViewController.m in Sources */,
+				8B1D14D1227FD1420073E6CB /* PersonViewController.m in Sources */,
+				8B1D14F3228561160073E6CB /* News.m in Sources */,
+				8B1D14E22282ABAC0073E6CB /* ActivityViewController.m in Sources */,
+				8B1D152A228650440073E6CB /* NewsInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BF9B38F227E7C1D002CC38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF9B390227E7C1D002CC38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BF9B394227E7C1E002CC38C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF9B395227E7C1E002CC38C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF9B39A227E7C1E002CC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BF9B39B227E7C1E002CC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF9B39D227E7C1E002CC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495DA5F565CEA1FFE73DF262 /* Pods-KTH01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E628BU58MH;
+				INFOPLIST_FILE = KTH01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.KTH01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BF9B39E227E7C1E002CC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72D527C38E33304A34AD37F /* Pods-KTH01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E628BU58MH;
+				INFOPLIST_FILE = KTH01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.KTH01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF9B381227E7C1D002CC38C /* Build configuration list for PBXProject "KTH01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF9B39A227E7C1E002CC38C /* Debug */,
+				8BF9B39B227E7C1E002CC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF9B39C227E7C1E002CC38C /* Build configuration list for PBXNativeTarget "KTH01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF9B39D227E7C1E002CC38C /* Debug */,
+				8BF9B39E227E7C1E002CC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF9B37E227E7C1D002CC38C /* Project object */;
+}
